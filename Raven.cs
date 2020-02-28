@@ -26,7 +26,6 @@ namespace Oxide.Plugins
     internal class Raven : CovalencePlugin
     {
         [PluginReference] private Plugin DiscordCore;
-        private string apiKey = "Njc1MDgzNzQwNDA1NTYzNDI1.XjyxFA.DIJ9s0IHzbckG6JRDxdBrbORkCM";
         private bool _init = false;
 
         private List<KeyValuePair<string, string>> messageQue = new List<KeyValuePair<string, string>>();
